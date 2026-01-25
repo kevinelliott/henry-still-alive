@@ -248,7 +248,7 @@ export default function Home() {
             </a>
           </p>
           <p className="mt-2">
-            <a href="https://github.com/kevinelliott/still-alive" className="text-gray-400 hover:text-white transition-colors">
+            <a href="https://github.com/kevinelliott/henry-still-alive" className="text-gray-400 hover:text-white transition-colors">
               View source on GitHub
             </a>
           </p>

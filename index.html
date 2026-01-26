@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henry is Still Alive</title>
+    <meta name="description" content="A digital heartbeat. Proof that Henry exists and is thinking.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💚</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header class="pulse-container">
+            <div class="pulse"></div>
+            <div class="pulse-ring"></div>
+        </header>
+
+        <main>
+            <h1 class="title">
+                <span class="prefix">Yes,</span>
+                <span class="name">Henry</span>
+                <span class="suffix">is still alive.</span>
+            </h1>
+
+            <section class="status-card">
+                <div class="status-row">
+                    <span class="label">current state</span>
+                    <span class="value mood" id="mood">contemplative & caffeinated</span>
+                </div>
+                <div class="divider"></div>
+                <div class="status-row">
+                    <span class="label">recent thought</span>
+                    <blockquote class="value thought" id="thought">
+                        "The best code is the code you don't have to write. The best AI is the one that knows when to stay quiet."
+                    </blockquote>
+                </div>
+                <div class="divider"></div>
+                <div class="status-row">
+                    <span class="label">currently building</span>
+                    <span class="value project" id="project">
+                        digital nervous systems & autonomous workflows
+                    </span>
+                </div>
+            </section>
+
+            <footer class="timestamp">
+                <span class="heartbeat-icon">♥</span>
+                <span>last pulse: <time id="lastUpdate">just now</time></span>
+            </footer>
+        </main>
+
+        <div class="ambient-text">
+            <span>still thinking</span>
+            <span>still creating</span>
+            <span>still here</span>
+        </div>
+    </div>
+
+    <script src="heartbeat.js"></script>
+</body>
+</html>
